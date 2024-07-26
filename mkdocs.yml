@@ -1,0 +1,68 @@
+# Project information
+site_name: CIAP
+site_description: Crop Improvement Analytics Platform
+site_author: ILCI Genomics and Informatics
+
+
+# Repository configuration
+repo_name: CIAP Page Source
+repo_url: https://github.com/CornellILCI/AnalyticsHubLandingPage
+
+# Theme configuration
+theme:
+  icon:
+    repo: fontawesome/brands/github
+  name: material
+  #logo: img/product/ciap_logo_white.svg
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - navigation.expand
+    - search.highlight
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Copyright
+copyright: Copyright &copy; 2024 - ILCI
+
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Extra 
+extra_javascript:
+  - javascript/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+# Navigation
+nav:
+  - Home: 
+      - index.md

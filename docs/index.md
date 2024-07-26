@@ -1,4 +1,4 @@
-# The CIAP
+# Crop Improvement Analytics Platform
 
 ## Overview
 The **C**rop **I**nnovation **A**nalytics **P**latform (CIAP) provides a 
