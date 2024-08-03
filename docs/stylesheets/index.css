@@ -7,8 +7,8 @@
   border-radius: 8px;
   transition: background-color 0.1s ease;
   margin-bottom: 5px;
-  width: 100%;
-  text-align: center;
+  width: 230px;
+  #text-align: center;
 }
 
 .button:hover {
@@ -42,6 +42,8 @@
   .button {
     display: block; /* Change from inline-block to block */
     margin-inline: auto;
+    width: 60%;
+    text-align: center;
   }
 
   .hero-container {
