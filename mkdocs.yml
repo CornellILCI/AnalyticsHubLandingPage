@@ -8,6 +8,7 @@ site_author: ILCI Genomics and Informatics
 repo_name: Source Code
 repo_url: https://github.com/CornellILCI/AnalyticsHubLandingPage
 
+
 # Theme configuration
 theme:
   custom_dir: docs/overrides
@@ -34,9 +35,9 @@ theme:
     - primary: white
     - accent: white
 
+
 # Copyright
 copyright: Copyright &copy; 2024 Innovation Lab for Crop Improvement
-
 
 
 # Markdown extensions
@@ -66,6 +67,7 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+
 
 # Navigation
 nav:
