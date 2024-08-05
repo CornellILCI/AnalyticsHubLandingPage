@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="stylesheets/index.css"/>
+
+
+<div class="md-grid md-typeset">
+
+
+<div class="hero-container">
+  <div class="hero-text">
+  <h1>Introducing <b>CIAP</b></h1>
+  <p>The <b>C</b>rop <b>I</b>mprovement <b>A</b>nalytics <b>P</b>latform (CIAP) provides a collaborative and custom JupyterHub environment where researchers can seamlessly access, analyze, and share genotype and phenotype data using R and Python programming environments. CIAP also comes pre-loaded with commonly used libraries such as:</p>
+  <ul>
+    <li><code>sommer</code> for mixed model analysis</li>
+    <li><code>rTASSEL</code> for GWAS and exploratory genetics analyses</li>
+    <li><code>rPHG</code> for interacting with <a href="https://phg.maizegenetics.net">PHG</a> data</li>
+    <li><code>tidyverse</code>- and <a href="https://bioconductor.org">BioConductor</a>-related libraries for common data manipulation and bioinformatics methods</li>
+  </ul>
+  <a href="docs/getting_started.md" class="button">
+    <span class="twemoji">{% include ".icons/fontawesome/solid/book.svg" %}</span> New? <b>Get started!</b>
+  </a>
+  <br>
+  <a href="https://ciap.ilci.scienceversa.com/" class="button">
+    <span class="twemoji">{% include ".icons/fontawesome/solid/rocket.svg" %}</span> <b>Log in</b> to the platform.
+  </a>
+  </div>
+  <div class="hero-image">
+    <img src="img/ciap_flow.svg" alt="CIAP workflow" draggable="false"/>
+  </div>
+</div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
+
