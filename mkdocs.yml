@@ -1,0 +1,78 @@
+# Project information
+site_name: Crop Improvement Analytics Platform
+site_description: Crop Improvement Analytics Platform
+site_author: ILCI Genomics and Informatics
+
+
+# Repository configuration
+repo_name: Source Code
+repo_url: https://github.com/CornellILCI/AnalyticsHubLandingPage
+
+
+# Theme configuration
+theme:
+  custom_dir: docs/overrides
+  favicon: img/ciap_logo_favicon.png
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+    - navigation.expand
+    - search.highlight
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+  logo: img/ciap_logo_dark.svg
+  name: material
+  palette:
+    - primary: white
+    - accent: white
+
+
+# Copyright
+copyright: Copyright &copy; 2024 Innovation Lab for Crop Improvement
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# Extra 
+extra_javascript:
+  - javascript/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+
+# Navigation
+nav:
+  - index.md
+  - Getting started:
+    - getting_started.md
+  - Workshops:
+    - workshops.md
