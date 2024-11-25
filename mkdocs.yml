@@ -42,15 +42,18 @@ copyright: Copyright &copy; 2024 Innovation Lab for Crop Improvement
 
 # Markdown extensions
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - md_in_html
   - toc:
       permalink: true
   - tables
-  - admonition
   - pymdownx.arithmatex:
       generic: true
-  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -73,6 +76,6 @@ extra_css:
 nav:
   - index.md
   - Getting started:
-    - getting_started.md
+    - General tutorial: getting_started.md
   - Workshops:
-    - workshops.md
+    - Placeholder: workshops.md
