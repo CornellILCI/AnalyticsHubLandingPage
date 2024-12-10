@@ -47,6 +47,11 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
   - tables
@@ -70,7 +75,6 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-
 
 # Navigation
 nav:
