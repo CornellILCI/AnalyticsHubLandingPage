@@ -1,0 +1,19 @@
+:root > * {
+  --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+  --md-footer-fg-color--light: var(--md-typeset-a-color);
+  --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
+  --md-footer-bg-color: #ececec;
+  --md-footer-bg-color--dark: #ececec;
+}
+
+.md-copyright__highlight {
+    color: #4d4d4d;
+}
+
+.md-copyright {
+    color: #4d4d4d;
+}
+
+.md-footer-meta.md-typeset a:hover {
+  color: #5d6cc0 !important;
+}
